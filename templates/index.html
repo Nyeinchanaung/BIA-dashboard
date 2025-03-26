@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BIA Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+        iframe {
+            border: none;
+            width: 95%;
+            height: 750px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Business Intelligence & Analytics Dashboard</h1>
+    <p>This dashboard is powered by <strong>Microsoft Power BI</strong> and embedded in a Flask app.</p>
+
+    <iframe src="{{ powerbi_url }}" allowFullScreen="true"></iframe>
+</body>
+</html>
